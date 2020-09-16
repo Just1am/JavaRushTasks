@@ -18,7 +18,7 @@ import java.io.InputStreamReader;
 "красный" - если горит красный цвет.
 */
 
-public class Svetofor {
+public class TrafficLights {
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
      InputStreamReader  inputStreamReader = new InputStreamReader(System.in);
