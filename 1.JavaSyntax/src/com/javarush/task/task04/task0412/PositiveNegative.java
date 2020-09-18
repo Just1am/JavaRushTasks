@@ -16,15 +16,15 @@ import java.io.InputStreamReader;
 public class PositiveNegative {
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
-        InputStreamReader inputStreamReader = new InputStreamReader(System.in);
-        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         int number = Integer.parseInt(bufferedReader.readLine());
-        if (number > 0)
+        if (number >= 0) {
             number *= 2;
-        else if (number < 0)
+        }
+        else {
             number += 1;
+        }
         System.out.println(number);
-
 
     }
 
